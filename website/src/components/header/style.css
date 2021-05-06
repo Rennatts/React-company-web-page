@@ -1,0 +1,48 @@
+* {
+    text-decoration: none;
+}
+
+.header {
+    background-color: black;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+
+.logo_container {
+    display: flex;
+    font-size: 2rem;
+    padding-left: 40px;
+    margin-top: 0.4rem;
+     
+}
+
+
+.header_direita {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: .8rem;
+    margin-top: 0.4rem;
+    padding-left: .5rem;
+    text-decoration: none;
+
+}
+
+.login,
+.contato,
+.compras,
+.minhascompras {
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+}
+
+
