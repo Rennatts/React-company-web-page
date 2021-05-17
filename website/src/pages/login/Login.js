@@ -21,7 +21,6 @@ class Login extends Component {
                                 <input type="text" placeholder="..."></input>
                             </div>
                             <div className="inputbox">
-                                <label>Email</label>
                                 <input type="submit" value="Sign In"></input>
                             </div>
                         </div>

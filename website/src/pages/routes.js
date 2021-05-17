@@ -7,9 +7,9 @@ import Landing from './landing/Landing';
 function Routes() {
     return(
         <BrowserRouter>
-           <Route path="/" exact component={Landing}></Route>
-           <Route path="/cadastroempresas" component={CadastrotrodeEmpresas}></Route>
-           <Route path="/login" component={Login}></Route>
+           <Route exact path="/" exact component={Landing}></Route>
+           <Route exact  path="/register" component={CadastrotrodeEmpresas}></Route>
+           <Route exact  path="/login" component={Login}></Route>
         </BrowserRouter>
     );
     
