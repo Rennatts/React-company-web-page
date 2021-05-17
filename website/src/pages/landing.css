@@ -1,0 +1,73 @@
+.landing{
+    background: url("./../assets/industry.jpg") no-repeat center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    padding: 20px;
+    color: white;
+
+}
+
+.landing::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+
+}
+
+
+
+.landing h1 {
+    margin-bottom: 60px;
+    color: #fcfcfc;
+    font-weight: 500;
+    z-index: 1000;
+}
+
+.search_container {
+    margin-bottom: 80px;
+    height:4rem;
+    display: flex;
+    z-index: 1000;
+    
+}
+
+
+.search_input {
+    display: flex;
+    height: 1.8rem;
+    width: 18rem;
+    border: none;
+    border-radius: 0.8rem;
+    
+}
+
+
+.search_container .searchIcon {
+    margin-left: 0.2rem;
+    font-size: 1.8rem;
+    z-index: 1000;
+    margin-bottom: 100px;
+
+}
+
+
+.search_container .search_input:hover {
+    border: none;
+    border-radius: 0.8rem;
+    
+}
+
+
+.content {
+    margin: 0;
+}

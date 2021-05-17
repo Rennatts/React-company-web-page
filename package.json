@@ -21,6 +21,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.4",
     "morgan": "^1.10.0",
-    "multer-s3": "^2.9.0"
+    "multer-s3": "^2.9.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6"
   }
 }

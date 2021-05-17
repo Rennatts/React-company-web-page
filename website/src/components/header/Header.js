@@ -26,9 +26,9 @@ function Header () {
                 </div>
                 </Link>
 
-                <Link to="/cadastroempresa">
+                <Link to="/register">
                 <div className="cadastro_empresa">
-                    <span>Register your company</span>
+                    <span>Register</span>
                 </div>
                 </Link>
 
