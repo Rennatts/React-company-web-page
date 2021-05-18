@@ -25,7 +25,7 @@ module.exports = (req, res) => {
         res.cookie("t", token, {expire: new Date() + 9999})
 
         const {_id, company_name, email} = company;
-        return res.json({token, user: {_id, email, company_name}});
+        return res.json({token, company: {_id, email, company_name}});
     });
     
 };

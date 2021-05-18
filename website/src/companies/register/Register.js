@@ -16,13 +16,16 @@ function Register({ companyError, companySuccess }) {
     const[ company, setCompany ] = useState({
         company_name: "",
         email: "",
-        password: ""
-
+        password: "",
+        city: "",
+        state: "",
+        address: "",
+        zip_code: ""
     });
 
     const dispatch = useDispatch();
 
-    const { company_name, email, password } = company;
+    const { company_name, email, password, city, state, address, zip_code } = company;
 
     const [error, setError] = useState(null);
     const [success, setSuccess] = useState(false);
@@ -66,13 +69,13 @@ function Register({ companyError, companySuccess }) {
 
     return (
         <div className="container">
-            <h2 className="title">Signup</h2>
 
             {showError()}
 
             {redirectUser()}
 
             <form className="form">
+            <h2 className="title">Signup</h2>
                 <div className="input">
                     <label>Company name</label>
                     <input 
@@ -96,6 +99,50 @@ function Register({ companyError, companySuccess }) {
                 </div>
 
                 <div className="input">
+                    <label>city</label>
+                    <input 
+                    onChange={(event)=> handleInputChange(event)} 
+                    type="city" 
+                    name= "city"
+                    required
+                    className="form-control"
+                    value={city}></input>
+                </div>
+
+                <div className="input">
+                    <label>state</label>
+                    <input 
+                    onChange={(event)=> handleInputChange(event)} 
+                    type="state" 
+                    name= "state"
+                    required
+                    className="form-control"
+                    value={state}></input>
+                </div>
+
+                <div className="input">
+                    <label>address</label>
+                    <input 
+                    onChange={(event)=> handleInputChange(event)} 
+                    type="address" 
+                    name= "address"
+                    required
+                    className="form-control"
+                    value={address}></input>
+                </div>
+
+                <div className="input">
+                    <label>zip cide</label>
+                    <input 
+                    onChange={(event)=> handleInputChange(event)} 
+                    type="zip_code" 
+                    name= "zip_code"
+                    required
+                    className="form-control"
+                    value={zip_code}></input>
+                </div>
+
+                <div className="input">
                     <label>Password</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
@@ -106,12 +153,15 @@ function Register({ companyError, companySuccess }) {
                     value={password}></input>
                 </div>
 
-                <button className="inputbox" onClick={handleFormSubmit} className="btn btn-raised btn-primary">Submit</button>
-                
+                <div className="inputbox">
+                   <button className="register_btn" onClick={handleFormSubmit}>Submit</button>
+                </div>
             </form>
             
         </div>
     )
+
+
 };
 
 

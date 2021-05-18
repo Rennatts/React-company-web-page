@@ -46,6 +46,30 @@ export const authCheck = () => {
     };
 };
 
+export const signin = (company) => {
+    return (dispatch) => {
+        axios
+        .post("http://localhost:3001/companies/signin", company)
+        .then(res => {
+            if (res.data.error) {
+                dispatch({
+                    type: COMPANY_ERROR,
+                    payload: res.data.error
+                })
+            } else {
+                saveUserToLocalStorage(res.data);
+                dispatch({
+                    type: AUTH,
+                    payload: res.data
+                });
+            }
+        })
+        .catch(err=> console.log(err))
+
+    };
+
+};
+
 
 
 export const getAllCompanies = (token) => {
