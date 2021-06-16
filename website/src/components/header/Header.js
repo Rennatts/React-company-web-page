@@ -41,7 +41,7 @@ function Header ({ currentCompany }) {
             )}
 
             {isAuthenticated() && (
-                <div>
+                <div className="header_authenticated">
                     <Link to={`/company/${isAuthenticated().company._id}`}  
                     className="nav-link"
                     href="#">

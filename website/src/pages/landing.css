@@ -1,10 +1,14 @@
+.main_landing{    
+    height: 100vh;
+}
+
 .landing{
-    background: url("./../assets/industry.jpg") no-repeat center;
+    background: url("./../assets/industry.jpg") no-repeat center center/cover;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    height: 93vh;
     width: 100%;
     padding: 20px;
     color: white;

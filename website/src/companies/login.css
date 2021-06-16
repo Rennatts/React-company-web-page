@@ -12,7 +12,10 @@
 .form {
     position: relative;
     width: 350px;
+    width: 500px;
     padding: 40px 40px 60px;
+    margin-top: 25px;
+    margin-bottom: 30px;
     border-radius: 10px;
     text-align: center;
     box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
@@ -159,9 +162,8 @@
 
 .form .inputbox .register_btn:active {
     color: #006c9c;
-    margin-top: 3px;
-    box-shadow:  2px 2px 6px rgba(58, 36, 36, 0.1),
-    2px 2px 6px rgba(0,0,0,0.8);
+    box-shadow:  1px 1px 3px rgba(58, 36, 36, 0.1),
+    2px 2px 6px rgba(0,0,0,0.4);
 
 }
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SearchIcon from "@material-ui/icons/Search";
 import './landing.css';
+import PriceComparision from './../components/PriceComparision';
 
 
 class Landing extends Component {
@@ -18,8 +19,8 @@ class Landing extends Component {
                 </div>
 
 
-                <div className="content">
-                    <h1>More content here</h1>
+                <div className="price_container">
+                    <PriceComparision></PriceComparision>
                 </div>
 
             </div>
