@@ -4,6 +4,7 @@ import './landing.css';
 import PriceComparision from './../components/PriceComparision';
 import AboutUs from './../components/AboutUs';
 import ContactUs from './../components/ContactUs';
+import ClientsReview from './../components/ClientsReview';
 
 
 class Landing extends Component {
@@ -25,6 +26,8 @@ class Landing extends Component {
                 <div className="price_container">
                     <PriceComparision></PriceComparision>
                 </div>
+
+                <ClientsReview></ClientsReview>
 
                 <ContactUs></ContactUs>
 

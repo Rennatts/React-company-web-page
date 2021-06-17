@@ -1,4 +1,3 @@
-
 :root {
     --accent-color: #641BFF;
     --heading-font-family: 'Poppins', sans-serif;
@@ -9,7 +8,7 @@
     height: 83vh;
     background: linear-gradient(45deg, #293B5F, #47597E, #DBE6FD, #B2AB8C);   
     background-size: 300% 300%;
-    animation: colors 15s ease;
+    animation: colors 10s ease;
 }
 
 
