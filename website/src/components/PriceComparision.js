@@ -1,12 +1,13 @@
 import React from 'react';
 import './PriceComparision.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEdit, faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 
 function PriceComparision() {
     return (
         <div class="price-comparison">
+
             <div class="price-column">
                 <div class="price-header">
                     <div class="price-section">
@@ -18,23 +19,23 @@ function PriceComparision() {
                 </div>
                 <div class="divider"></div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
-                    Feature A
+                    <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
+                      Feature A
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                    <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature B
                 </div>
                 <div class="feature inactive">
-                    <img src="x-square.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature C
                 </div>
                 <div class="feature inactive">
-                    <img src="x-square.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature D
                 </div>
                 <div class="feature inactive">
-                    <img src="x-square.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature E
                 </div>
                 <button class="cta">Start today</button>
@@ -52,23 +53,23 @@ function PriceComparision() {
                 </div>
                 <div class="divider"></div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature A
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature B
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature C
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature D
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature E
                 </div>
                 <button class="cta">Start today</button>
@@ -85,23 +86,23 @@ function PriceComparision() {
                 </div>
                 <div class="divider"></div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature A
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature B
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature C
                 </div>
                 <div class="feature">
-                    <img src="check-circle.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faCheck}></FontAwesomeIcon>
                     Feature D
                 </div>
                 <div class="feature inactive">
-                    <img src="x-square.svg"></img>
+                   <FontAwesomeIcon className="icon" icon={faTimes}></FontAwesomeIcon>
                     Feature E
                 </div>
                 <button class="cta">Start today</button>

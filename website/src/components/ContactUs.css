@@ -1,0 +1,100 @@
+.contactus_main_container{
+    background-color: rgb(241, 232, 232);
+    padding: 40px 0;
+}
+
+
+.contactus_title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 19px;
+    color: #2F5D62;
+}
+
+.contactus_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+.contactus_container_secondary{
+    padding: 0 60px;
+
+}
+
+.form_contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    border: 2px solid rgb(231, 227, 226);
+    box-shadow: 10px 10px 20px rgba(173, 166, 165, 0.5);
+    padding: 42px;
+    background: white;
+
+}
+
+.form_contactus input{
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+.form_contactus textarea{
+    height: 120px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.form_contactus .contactus_btn{
+    width: 100%;
+    background: linear-gradient(50deg, #2F5D62, #5E8B7E, #A7C4BC, #DFEEEA);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+
+.form_contactus .contactus_btn:hover{
+    background-size: 300% 300%;
+    animation: colors 3s ease;
+}
+
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+
+    }
+}
+
+.photo_container{
+    display: flex;
+    padding-left: 60px;
+
+}
+
+.photo_container img{
+    height: 400px;
+    width: 100%;
+
+}
