@@ -5,6 +5,9 @@ import PriceComparision from './../components/PriceComparision';
 import AboutUs from './../components/AboutUs';
 import ContactUs from './../components/ContactUs';
 import ClientsReview from './../components/ClientsReview';
+import ImageSlider from './../components/ImageSlider';
+import Bottom from './../components/Bottom';
+
 
 
 class Landing extends Component {
@@ -28,8 +31,10 @@ class Landing extends Component {
                 </div>
 
                 <ClientsReview></ClientsReview>
-
+            
                 <ContactUs></ContactUs>
+
+                <Bottom></Bottom>
 
             </div>
         );

@@ -38,13 +38,11 @@
     align-items: center;
     flex-direction: column;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.736;
     z-index: 1;
     margin-top: 200px;
 
 }
-
-
 
 
 
@@ -172,4 +170,7 @@
     from {
         transform: translateX(-100px)
     }
+}
+.client_name{
+    padding-bottom: 22px;
 }

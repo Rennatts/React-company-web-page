@@ -75,3 +75,13 @@
 .content {
     margin: 0;
 }
+
+
+
+
+.image_main_container{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+
+}
