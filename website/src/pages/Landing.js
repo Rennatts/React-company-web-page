@@ -17,7 +17,7 @@ class Landing extends Component {
             <div className="main_landing">
 
                 <div className="landing">
-                    <h1>This is the landing page</h1>
+                    <h1>Welcome!</h1>
 
                     <div className="search_container">
                         <input type="text" className="search_input"></input>
@@ -29,11 +29,11 @@ class Landing extends Component {
 
                 <AboutUs></AboutUs>
 
+                <ClientsReview></ClientsReview>
+
                 <div className="price_container">
                     <PriceComparision></PriceComparision>
                 </div>
-
-                <ClientsReview></ClientsReview>
             
                 <ContactUs></ContactUs>
 

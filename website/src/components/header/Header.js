@@ -30,18 +30,12 @@ function Header ({ currentCompany }) {
                         <span>Register</span>
                     </div>
                     </Link>
-
-                    <Link>
-                    <div className="contato">
-                        <span>Contact</span>
-                    </div>
-                    </Link>
                 </div>
 
             )}
 
             {isAuthenticated() && (
-                <div className="header_authenticated">
+                <div className="header_direita">
                     <Link to={`/company/${isAuthenticated().company._id}`}  
                     className="nav-link"
                     href="#">

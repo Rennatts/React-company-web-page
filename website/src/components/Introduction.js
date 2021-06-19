@@ -8,7 +8,7 @@ function Introduction() {
     return (
         <div className="main_container_intro">
             <div className="container_intro">
-                <div className="card">
+                <div className="card" data-tilt data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500" data-tilt data-tilt-reset="false">
                     <div className="content">
                         <h2>01</h2>
                         <h3>Card one</h3>
@@ -16,7 +16,7 @@ function Introduction() {
                             dnsldnsnfçcasjmdclkasmdçkmaclasmlgggncaçncalsçkmalc
                             kcmsmsmddsmdsmdmsdmskmdsmdksmkdmskdksmdksmdfdf
                         </p>
-                        <Link>See more</Link>
+                        <Link className="link">See more</Link>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ function Introduction() {
                             dnsldnsnfçcasjmdclkasmdçkmaclasmlgggncaçncalsçkmalc
                             kcmsmsmddsmdsmdmsdmskmdsmdksmkdmskdksmdksmdfdf
                         </p>
-                        <Link>See more</Link>
+                        <Link className="link">See more</Link>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ function Introduction() {
                             dnsldnsnfçcasjmdclkasmdçkmaclasmlgggncaçncalsçkmalc
                             kcmsmsmddsmdsmdmsdmskmdsmdksmkdmskdksmdksmdfdf
                         </p>
-                        <Link>See more</Link>
+                        <Link className="link">See more</Link>
                     </div>
                 </div>
             </div>
