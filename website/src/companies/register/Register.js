@@ -68,88 +68,89 @@ function Register({ companyError, companySuccess }) {
 
 
     return (
-        <div className="container">
+        <div className="register_container">
 
             {showError()}
 
             {redirectUser()}
 
-            <form className="form">
+            <form className="register_form">
             <h2 className="title">Signup</h2>
-                <div className="input">
+                <div className="register_input">
                     <label>Company name</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="text" 
                     name="company_name"
                     required
-                    className="form-control"
+                    className="register_form_control"
                     value={company_name}></input>
                 </div>
+                
 
-                <div className="input">
+                <div className="register_input">
                     <label>email</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="email" 
                     name= "email"
                     required
-                    className="form-control"
+                    className="register_form_control"
                     value={email}></input>
                 </div>
 
-                <div className="input">
+                <div className="register_input">
                     <label>city</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="city" 
                     name= "city"
                     required
-                    className="form-control"
+                    className="register_form_control"
                     value={city}></input>
                 </div>
 
-                <div className="input">
+                <div className="register_input">
                     <label>state</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="state" 
                     name= "state"
                     required
-                    className="form-control"
+                    className="register_form_control"
                     value={state}></input>
                 </div>
 
-                <div className="input">
+                <div className="register_input">
                     <label>address</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="address" 
                     name= "address"
                     required
-                    className="form-control"
+                    className="register_form_control"
                     value={address}></input>
                 </div>
 
-                <div className="input">
+                <div className="register_input">
                     <label>zip cide</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="zip_code" 
                     name= "zip_code"
                     required
-                    className="form-control"
+                    className="register_form_control"
                     value={zip_code}></input>
                 </div>
 
-                <div className="input">
+                <div className="register_input">
                     <label>Password</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="password" 
                     name= "password"
                     required
-                    className="form-control"
+                    className="register_form_control"
                     value={password}></input>
                 </div>
 

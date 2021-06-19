@@ -22,7 +22,7 @@ function ContactUs() {
 
                 <div className="contactus_container_secondary">
                     <div className="photo_container">
-                        <img src={cargo}></img>
+                        <img src={cargo} alt="cargo"></img>
                     </div> 
                 </div>  
             </div>

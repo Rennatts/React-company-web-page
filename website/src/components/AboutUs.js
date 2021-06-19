@@ -17,7 +17,7 @@ function AboutUs() {
             <div className="features_container">
                 <div className="features">
                     <div className="features_secondary">
-                        <img src={findCustomers}></img>
+                        <img src={findCustomers} alt="findcustomers"></img>
                     </div>
                     <div className="text">
                         <p>A B2B plataform for logistics companies</p>
@@ -26,7 +26,7 @@ function AboutUs() {
 
                 <div className="features">
                     <div className="features_secondary">
-                        <img src={quotes}></img>
+                        <img src={quotes} alt="quotes"></img>
                     </div>
                     <div className="text">
                         <p>Get freight quotes</p>
@@ -35,7 +35,7 @@ function AboutUs() {
 
                 <div className="features">
                     <div className="features_secondary">
-                        <img src={handshake}></img>
+                        <img src={handshake} alt="handshake"></img>
                     </div>
                     <div className="text">
                         <p>Get new costumers</p>
@@ -45,7 +45,7 @@ function AboutUs() {
                 
                 <div className="features">
                     <div className="features_secondary">
-                        <img src={growth}></img>
+                        <img src={growth} alt="growth"></img>
                     </div>
                     <div className="text">
                         <p>Increase your sales</p>

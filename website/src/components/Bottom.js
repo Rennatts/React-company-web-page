@@ -1,7 +1,5 @@
 import React from 'react';
 import './Bottom.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Facebook, faTwitter, faInstagram, faYoutube } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 

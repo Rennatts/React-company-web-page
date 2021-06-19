@@ -3,6 +3,7 @@ import {Redirect} from 'react-router-dom';
 import { useDispatch, connect } from 'react-redux';
 import { signin } from './../redux/actions/companyActions';
 import './login.css';
+import {Link } from 'react-router-dom';
 
 import {
     TOGGLE_SUCCESS
@@ -57,36 +58,38 @@ function Login({companyError, companySuccess}) {
     };
 
     return (
-        <div className="container">
+        <div className="login_container">
 
             {showError()}
 
             {redirectUser()}
 
-            <form className="form">
+            <form className="login_form">
             <h2 className="title">Log in</h2>
 
-                <div className="input">
-                    <label>email</label>
+                <div className="login_input">
+                    <label>Email</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="email" 
                     name= "email"
                     required
-                    className="form-control"
+                    className="signin_form-control"
                     value={email}></input>
                 </div>
 
-                <div className="input">
+                <div className="login_input">
                     <label>Password</label>
                     <input 
                     onChange={(event)=> handleInputChange(event)} 
                     type="password" 
                     name= "password"
                     required
-                    className="form-control"
+                    className="signin_form-control"
                     value={password}></input>
                 </div>
+
+                <div><Link className="forgot">Forgot Password?</Link></div>
 
                 <div className="inputbox">
                    <button className="register_btn" onClick={handleFormSubmit}>Submit</button>
