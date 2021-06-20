@@ -10,7 +10,7 @@ function Header ({ currentCompany }) {
     console.log(isAuthenticated());
 
     return (
-        <header className="header">
+        <header className="header sticky">
             <Link exact to="/">
             <div className="logo_container">
                 <strong className="logo">LogisTech</strong>
