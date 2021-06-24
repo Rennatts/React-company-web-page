@@ -30,16 +30,6 @@ function ClientsReview() {
                     <p>This plataform changed my business, I could develop new long term partnerships. It made my brand name more well known. I could easily manage the potencial customers queries. I highlt recommend this plataform!</p>
                 </div>
             </div>
-            <div className="circle_1"></div>
-            <div className="circle_2"></div>
-            <div className="circle_3"></div>
-            <div className="circle_4"></div>
-            <div className="circle_5"></div>
-            <div className="circle_6"></div>
-            <div className="circle_7"></div>
-            <div className="circle_8"></div>
-            <div className="circle_9"></div>
-            <div className="circle_10"></div>
         </div>
     )
 }

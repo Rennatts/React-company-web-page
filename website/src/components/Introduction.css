@@ -1,9 +1,10 @@
 .main_container_intro{
     background: #161623;
-    height: 76%;
+    height: 86vh;
     position: relative;
     flex-wrap: wrap;
     z-index: 1;
+    
 }
 
 
@@ -42,7 +43,7 @@
    max-width: 2500px;
    flex-wrap: wrap;
    z-index: 1;
-   padding-top: 55px;
+   padding-top: 100px;
 }
 
 .container_intro .card{

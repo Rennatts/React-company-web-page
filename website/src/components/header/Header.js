@@ -20,36 +20,35 @@ function Header ({ currentCompany }) {
             {!isAuthenticated() && (
                 <div className="header_direita">
                     <Link exact to="/login">
-                    <div className="login">
-                        <span>Log in</span>
-                    </div>
+                        <div className="login">
+                            <span>Log in</span>
+                        </div>
                     </Link>
 
                     <Link exact to="/register">
-                    <div className="cadastro_empresa">
-                        <span>Register</span>
-                    </div>
+                        <div className="cadastro_empresa">
+                            <span>Register</span>
+                        </div>
                     </Link>
                 </div>
 
             )}
 
             {isAuthenticated() && (
-                <div className="header_direita">
-                    <Link to={`/company/${isAuthenticated().company._id}`}  
-                    className="nav-link"
-                    href="#">
-                    {`${isAuthenticated().company.company_name}´s profile`} 
-                    </Link> 
+                <div className="header_direita_log">
+ 
+                <Link to={`/company/${isAuthenticated().company._id}`}  
+                className="nav-link"
+                href="#">
+                {`${isAuthenticated().company.company_name}´s profile`} 
+                </Link> 
 
-                    <li>
-                        <Link
-                        onClick={()=> signout(()=> history.push('/'))}>
-                            <div className="contato">
-                                <span>log out</span>
-                            </div>
-                        </Link>
-                    </li>
+                <Link className="nav-link"
+                onClick={()=> signout(()=> history.push('/'))}>
+                    <div>
+                        <span>log out</span>
+                    </div>
+                </Link>
                 </div>
 
             )}
